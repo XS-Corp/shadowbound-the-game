@@ -1,0 +1,14 @@
+hsp = 0;
+vsp = 0;
+move_speed = 4;
+playerx = obj_player.x;
+playery = obj_player.y;
+x = global.playerx;
+y = global.playery;
+global.player_hidden = false;
+sprint_duration = room_speed * 8;   
+sprint_cooldown = room_speed * 5;   
+sprint_timer = 0;
+cooldown_timer = 0;
+is_sprinting = false;
+nope_played = false;

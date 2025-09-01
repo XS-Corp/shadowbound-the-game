@@ -1,0 +1,10 @@
+global.passed += 1;
+instance_destroy(obj_finish_1);
+audio_stop_sound(snd_enemy_detected);
+audio_stop_sound(snd_bg);
+save_globals_to_ini("save.ini", "GameData");
+global.playerx = 395;
+global.playery = 410;
+var fade = instance_create_layer(0, 0, "fade", obj_fade);
+fade.fading_out = true;
+fade.target_room = level_complete;

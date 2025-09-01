@@ -1,0 +1,1 @@
+global.shadowcoins += 1;

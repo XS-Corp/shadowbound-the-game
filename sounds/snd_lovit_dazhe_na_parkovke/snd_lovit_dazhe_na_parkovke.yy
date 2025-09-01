@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_lovit_dazhe_na_parkovke",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":512,
+  "compression":0,
+  "conversionMode":0,
+  "duration":24.581224,
+  "name":"snd_lovit_dazhe_na_parkovke",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"snd_lovit_dazhe_na_parkovke.mp3",
+  "type":1,
+  "volume":1.0,
+}
